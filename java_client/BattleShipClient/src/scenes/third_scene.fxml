@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="gui" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" stylesheets="/css/style_third_scene.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerThirdScene">
+   <center>
+      <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <GridPane fx:id="myGridPane" layoutX="40.0" layoutY="112.0" prefHeight="264.0" prefWidth="259.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="myBtn00" mnemonicParsing="false" prefHeight="73.0" prefWidth="65.0" />
+                        <Button fx:id="myBtn01" mnemonicParsing="false" prefHeight="75.0" prefWidth="43.0" GridPane.columnIndex="1" />
+                        <Button fx:id="myBtn02" mnemonicParsing="false" prefHeight="96.0" prefWidth="43.0" GridPane.columnIndex="2" />
+                        <Button fx:id="myBtn03" mnemonicParsing="false" prefHeight="97.0" prefWidth="43.0" GridPane.columnIndex="3" />
+                        <Button fx:id="myBtn04" mnemonicParsing="false" prefHeight="56.0" prefWidth="43.0" GridPane.columnIndex="4" />
+                        <Button fx:id="myBtn05" mnemonicParsing="false" prefHeight="90.0" prefWidth="44.0" GridPane.columnIndex="5" />
+                        <Button fx:id="myBtn10" mnemonicParsing="false" prefHeight="66.0" prefWidth="43.0" GridPane.rowIndex="1" />
+                        <Button fx:id="myBtn11" mnemonicParsing="false" prefHeight="69.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Button fx:id="myBtn12" mnemonicParsing="false" prefHeight="69.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Button fx:id="myBtn13" mnemonicParsing="false" prefHeight="93.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <Button fx:id="myBtn14" mnemonicParsing="false" prefHeight="67.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                        <Button fx:id="myBtn15" mnemonicParsing="false" prefHeight="83.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                        <Button fx:id="myBtn20" mnemonicParsing="false" prefHeight="44.0" prefWidth="80.0" GridPane.rowIndex="2" />
+                        <Button fx:id="myBtn21" mnemonicParsing="false" prefHeight="44.0" prefWidth="69.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Button fx:id="myBtn22" mnemonicParsing="false" prefHeight="67.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Button fx:id="myBtn23" mnemonicParsing="false" prefHeight="44.0" prefWidth="64.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <Button fx:id="myBtn24" mnemonicParsing="false" prefHeight="95.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                        <Button fx:id="myBtn25" mnemonicParsing="false" prefHeight="68.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                        <Button fx:id="myBtn30" mnemonicParsing="false" prefHeight="85.0" prefWidth="43.0" GridPane.rowIndex="3" />
+                        <Button fx:id="myBtn31" mnemonicParsing="false" prefHeight="89.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Button fx:id="myBtn32" mnemonicParsing="false" prefHeight="88.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <Button fx:id="myBtn33" mnemonicParsing="false" prefHeight="93.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <Button fx:id="myBtn34" mnemonicParsing="false" prefHeight="91.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                        <Button fx:id="myBtn35" mnemonicParsing="false" prefHeight="91.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                        <Button fx:id="myBtn40" mnemonicParsing="false" prefHeight="93.0" prefWidth="43.0" GridPane.rowIndex="4" />
+                        <Button fx:id="myBtn41" mnemonicParsing="false" prefHeight="96.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Button fx:id="myBtn42" mnemonicParsing="false" prefHeight="112.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <Button fx:id="myBtn43" mnemonicParsing="false" prefHeight="137.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                        <Button fx:id="myBtn44" mnemonicParsing="false" prefHeight="121.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                        <Button fx:id="myBtn45" mnemonicParsing="false" prefHeight="103.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                        <Button fx:id="myBtn50" mnemonicParsing="false" prefHeight="149.0" prefWidth="43.0" GridPane.rowIndex="5" />
+                        <Button fx:id="myBtn51" mnemonicParsing="false" prefHeight="194.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Button fx:id="myBtn52" mnemonicParsing="false" prefHeight="183.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                        <Button fx:id="myBtn53" mnemonicParsing="false" prefHeight="180.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                        <Button fx:id="myBtn54" mnemonicParsing="false" prefHeight="154.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                        <Button fx:id="myBtn55" mnemonicParsing="false" prefHeight="182.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                     </children>
+                  </GridPane>
+                  <Label layoutX="118.0" layoutY="43.0" prefHeight="37.0" prefWidth="121.0" text="MY FIELD" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="numberOfMyShips" editable="false" layoutX="170.0" layoutY="381.0" prefHeight="27.0" prefWidth="30.0" />
+                  <Label layoutX="40.0" layoutY="386.0" text="Number of my ships:" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <GridPane fx:id="enemyGridPane" layoutX="40.0" layoutY="112.0" prefHeight="264.0" prefWidth="259.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="enemyBtn00" mnemonicParsing="false" onAction="#fire00" prefHeight="95.0" prefWidth="43.0" />
+                        <Button fx:id="enemyBtn01" mnemonicParsing="false" onAction="#fire01" prefHeight="78.0" prefWidth="43.0" GridPane.columnIndex="1" />
+                        <Button fx:id="enemyBtn02" mnemonicParsing="false" onAction="#fire02" prefHeight="133.0" prefWidth="43.0" GridPane.columnIndex="2" />
+                        <Button fx:id="enemyBtn03" mnemonicParsing="false" onAction="#fire03" prefHeight="147.0" prefWidth="43.0" GridPane.columnIndex="3" />
+                        <Button fx:id="enemyBtn04" mnemonicParsing="false" onAction="#fire04" prefHeight="167.0" prefWidth="43.0" GridPane.columnIndex="4" />
+                        <Button fx:id="enemyBtn05" mnemonicParsing="false" onAction="#fire05" prefHeight="149.0" prefWidth="44.0" GridPane.columnIndex="5" />
+                        <Button fx:id="enemyBtn10" mnemonicParsing="false" onAction="#fire10" prefHeight="73.0" prefWidth="43.0" GridPane.rowIndex="1" />
+                        <Button fx:id="enemyBtn11" mnemonicParsing="false" onAction="#fire11" prefHeight="68.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Button fx:id="enemyBtn12" mnemonicParsing="false" onAction="#fire12" prefHeight="62.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Button fx:id="enemyBtn13" mnemonicParsing="false" onAction="#fire13" prefHeight="95.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <Button fx:id="enemyBtn14" mnemonicParsing="false" onAction="#fire14" prefHeight="86.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                        <Button fx:id="enemyBtn15" mnemonicParsing="false" onAction="#fire15" prefHeight="98.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                        <Button fx:id="enemyBtn20" mnemonicParsing="false" onAction="#fire20" prefHeight="122.0" prefWidth="43.0" GridPane.rowIndex="2" />
+                        <Button fx:id="enemyBtn21" mnemonicParsing="false" onAction="#fire21" prefHeight="102.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Button fx:id="enemyBtn22" mnemonicParsing="false" onAction="#fire22" prefHeight="114.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Button fx:id="enemyBtn23" mnemonicParsing="false" onAction="#fire23" prefHeight="93.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <Button fx:id="enemyBtn24" mnemonicParsing="false" onAction="#fire24" prefHeight="92.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                        <Button fx:id="enemyBtn25" mnemonicParsing="false" onAction="#fire25" prefHeight="106.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                        <Button fx:id="enemyBtn30" mnemonicParsing="false" onAction="#fire30" prefHeight="90.0" prefWidth="43.0" GridPane.rowIndex="3" />
+                        <Button fx:id="enemyBtn31" mnemonicParsing="false" onAction="#fire31" prefHeight="77.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Button fx:id="enemyBtn32" mnemonicParsing="false" onAction="#fire32" prefHeight="94.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <Button fx:id="enemyBtn33" mnemonicParsing="false" onAction="#fire33" prefHeight="114.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <Button fx:id="enemyBtn34" mnemonicParsing="false" onAction="#fire34" prefHeight="122.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                        <Button fx:id="enemyBtn35" mnemonicParsing="false" onAction="#fire35" prefHeight="111.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                        <Button fx:id="enemyBtn40" mnemonicParsing="false" onAction="#fire40" prefHeight="111.0" prefWidth="43.0" GridPane.rowIndex="4" />
+                        <Button fx:id="enemyBtn41" mnemonicParsing="false" onAction="#fire41" prefHeight="98.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Button fx:id="enemyBtn42" mnemonicParsing="false" onAction="#fire42" prefHeight="85.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <Button fx:id="enemyBtn43" mnemonicParsing="false" onAction="#fire43" prefHeight="108.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                        <Button fx:id="enemyBtn44" mnemonicParsing="false" onAction="#fire44" prefHeight="93.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                        <Button fx:id="enemyBtn45" mnemonicParsing="false" onAction="#fire45" prefHeight="97.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                        <Button fx:id="enemyBtn50" mnemonicParsing="false" onAction="#fire50" prefHeight="93.0" prefWidth="43.0" GridPane.rowIndex="5" />
+                        <Button fx:id="enemyBtn51" mnemonicParsing="false" onAction="#fire51" prefHeight="101.0" prefWidth="43.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Button fx:id="enemyBtn52" mnemonicParsing="false" onAction="#fire52" prefHeight="109.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                        <Button fx:id="enemyBtn53" mnemonicParsing="false" onAction="#fire53" prefHeight="88.0" prefWidth="43.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                        <Button fx:id="enemyBtn54" mnemonicParsing="false" onAction="#fire54" prefHeight="72.0" prefWidth="43.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                        <Button fx:id="enemyBtn55" mnemonicParsing="false" onAction="#fire55" prefHeight="137.0" prefWidth="44.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                     </children>
+                  </GridPane>
+                  <Label layoutX="86.0" layoutY="46.0" prefHeight="37.0" prefWidth="167.0" text="ENEMY FIELD" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Circle fx:id="statusCircle" fill="#1fff2f" layoutX="124.0" layoutY="425.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Label layoutX="134.0" layoutY="417.0" text="STATUS:" />
+                  <TextField fx:id="statusText" editable="false" layoutX="191.0" layoutY="412.0" prefHeight="27.0" prefWidth="141.0" />
+                  <Label layoutX="40.0" layoutY="382.0" text="Number of enemy ships:" />
+                  <TextField fx:id="numberOfEnemyShips" editable="false" layoutX="191.0" layoutY="378.0" prefHeight="27.0" prefWidth="32.0" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>

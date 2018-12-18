@@ -1,0 +1,29 @@
+Client was launched at 17:03:52 2018/12/12
+Client was connected to server at 17:04:00 2018/12/12
+Server address: 10.0.0.2 port: 10000
+Sent: find;ondra;
+From server: opponent;found;
+Sent: grid;0;0;1;0;2;0;3;0;4;0;5;0;
+Mesage grid: grid;0;0;1;0;2;0;3;0;4;0;5;0;
+From server: start;1;
+Sent: fire;2;2;
+From server: response;0;
+From server: enemy;0;2;1;
+Sent: fire;0;0;
+From server: response;1;
+From server: enemy;0;3;3;
+From server: ping;
+From server: ping;
+From server: ping;
+Sent: fire;3;1;
+From server: response;0;
+From server: ping;
+From server: ping;
+From server: ping;
+From server: ping;
+From server: ping;
+From server: ping;
+From server: result;disconnect;
+From server: ping;
+Lost connection to server!
+Client was terminated at 17:21:41 2018/12/12

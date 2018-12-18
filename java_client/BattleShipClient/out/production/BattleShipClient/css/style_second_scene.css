@@ -1,0 +1,20 @@
+.button:hover{
+    -fx-background-image: url("../img/ship2.jpg");
+    -fx-background-repeat: no-repeat;
+}
+
+.button {
+    -fx-background-color: #60B0C0;
+    -fx-border-color: #3d8bc0;
+}
+
+#ReadyBtn{
+
+    -fx-background-color: #cbcbcb;
+    -fx-background-image: none;
+    -fx-border-color: #a8a8a8;
+}
+
+#ReadyBtn:hover{
+    -fx-background-color: #6eff5e;
+}
