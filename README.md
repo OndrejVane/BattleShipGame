@@ -1,4 +1,4 @@
 # BattleShipGame
 Client server game using TCP
 
-[I'm an inline-style link](https://www.google.com)
+[Dokumentace](https://drive.google.com/open?id=1tTE1InM8IQQAEL4eXngMv7BTuaiezh1-)
